@@ -1,0 +1,43 @@
+.info,.sign{
+display: grid;
+padding: 15px;
+margin-top: 30px;
+border: 2px solid black;
+border-radius: 100px;
+width: 600px;
+transition: 0.3s;
+}
+.submit{
+
+    padding: 15px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 600px;
+    transition: 0.3s;
+    font-size: 20px;
+
+}
+.submit:hover,.info:hover,.sign:hover{
+ background-color: cornflowerblue;
+ color: cornsilk;
+
+}
+
+h1{
+    font-family:arial;
+}
+#a{
+    margin-top: 10px;
+    margin-left: 400px;
+    color: cornflowerblue;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#a:hover{
+    color: cornflowerblue;
+}
+.signin{
+    display: none;
+}
